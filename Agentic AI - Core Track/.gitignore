@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Model cache
+.cache/
+models/
+
+# Temporary files
+*.tmp
